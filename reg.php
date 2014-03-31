@@ -119,3 +119,7 @@ oci_close($conn);
 ?>
 </body>
 </html>
+<?php
+	echo '<br><h4><a href ="admin.html" >Back To Panel</a></h4>'
+	
+?>

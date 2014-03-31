@@ -11,6 +11,7 @@ include("PHPconnectionDB.php");
 <body>
 <h1>Register</h1>
 <?php
+	//check if it is admin
 	if (!isset($_COOKIE["user"])) {
 		echo '<p>Access denied. You are not an Administrator.</p>';
 		echo '</body>';
@@ -84,6 +85,8 @@ include("PHPconnectionDB.php");
   </p>
 </form>
 <?php
+
+//insert the certain information into the database from the POST
 if (isset($_POST['submit'])) {
 	$firstname = $_POST['firstname'];
 	$lastname = $_POST['lastname'];
@@ -116,3 +119,7 @@ oci_close($conn);
 ?>
 </body>
 </html>
+<?php
+	echo '<br><h4><a href ="admin.html" >Back To Panel</a></h4>'
+	
+?>

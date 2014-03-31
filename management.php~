@@ -39,6 +39,7 @@ oci_close($conn);
 <p><a href="person.php">Personal Information Change</a></p>
 <p><a href="user.php">Login Information Change</a></p>
 <p><a href="reg.php">Add New User</a></p>
+<p><a href="doctor_patient.php">Family Doctor</a></p>
 
 </body>
 </html>

@@ -88,3 +88,10 @@ elseif($_COOKIE['class']!='a') {
 		?>
 	</center>
 </html>
+
+<?php
+//set back button
+echo '<div style="position: absolute; top: 0; right: 10; width: 100px; text-align:right;">
+        <h4><a href = "admin.html">Back To Panel</a><h4>
+    </div>';
+?>

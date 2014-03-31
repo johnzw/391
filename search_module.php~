@@ -214,11 +214,26 @@ function displayImg($r_id) {
    	
 }
 ?>
-
 <?php
 //set back button
+$class = $_COOKIE["class"];
+if ($class == 'a'){
+	$link = "admin.html";				
+}
+elseif($class == 'd') {
+	$link = "doc.html";					
+}
+elseif($class == 'r') {
+	$link = "radio.html";
+}
+elseif($class == 'p'){
+	$link = "patient.html";
+}
+else {
+	header("Location: index.html");	
+}	
+
 echo '<div style="position: absolute; top: 0; right: 10; width: 100px; text-align:right;">
-        <h2>here<h2>
+        <h4><a href = "'.$link.'">Back To Panel</a><h4>
     </div>';
-    
 ?>

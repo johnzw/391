@@ -7,7 +7,9 @@
 
 <body>
 <h1>Patient Portal</h1>
-<p><a href="patient.php">Patient Information Change</a></p>
+<p><a href="nperson.php">Patient Information Change</a></p>
 <p><a href="search_module.php">Search Information</a></p>
+
+<br><br><h4><a href="logout.php" >Log out</a></h4>
 </body>
 </html>

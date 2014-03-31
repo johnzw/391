@@ -9,6 +9,10 @@
 <h1>Administrator Portal</h1>
 <p><a href="management.php">User Management</a></p>
 <p><a href="search_module.php">Search Information</a></p>
+<p><a href="data_analysis.php">Data Analysis</a></p>
+<p><a href="report_generate.php">Report Generating</a></p>
 
+
+<br><br><h4><a href="logout.php" ></a></h4>
 </body>
 </html>
