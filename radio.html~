@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<h1>Radiologist Portal</h1>
+<p><a href="nperson.php">Radiologist Information Change</a></p>
+<p><a href="radiology_record.php">Upload Radiology Record</a></p>
+<p><a href="search_module.php">Search Information</a></p>
+</body>
+</html>
