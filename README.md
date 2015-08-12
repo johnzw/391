@@ -1,7 +1,7 @@
-391(Database Management System) Final Project
+391(Database Management System)
 =============================================
 
-# Medical Management System
+### Final Project: Medical Management System
 
 * Sign Up
 * Log In
